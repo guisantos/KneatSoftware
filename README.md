@@ -62,18 +62,22 @@ The solution is divided in 6 different projects:
 4. Wait for the build process and a console will open
 
 Application ask you to input the distance in Mega light
+
 ![input]
 
 Now, connect to the webservice [SWAPI](https://swapi.co/)
+
 ![webservice]
 
 And finally you get the output, a list of starships and the amount of stops.
+
 ![output]
 
 After that you can choose to close the application or input another distance.
 
 # Kneat.Tests Layer
 Here you can find all the tests, there're 12 different available tests, convering the code from the user point to the output.
+
 ![tests]
 
 >You can access this menu by going to **Test** > **Windows** > **Test Explorer**
