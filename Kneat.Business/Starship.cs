@@ -8,6 +8,10 @@ namespace Kneat.Business
 {
     public static class Starship
     {
+        /// <summary>
+        /// Get starships from the API async.
+        /// </summary>
+        /// <returns>List of @StarsgipModel</returns>
         public static List<StarshipModel> GetStarshipsAsync() => Swapi.GetStarshipsAsync().Result;
     }
 }

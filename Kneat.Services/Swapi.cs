@@ -57,7 +57,6 @@ namespace Kneat.Services
             {
                 throw ex;
             }
-
         }
     }
 }

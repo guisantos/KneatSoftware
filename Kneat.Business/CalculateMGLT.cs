@@ -19,6 +19,11 @@ namespace Kneat.Business
             return Math.Floor(distance / totalMGLT);
         }
 
+        /// <summary>
+        /// Method to validate the user input
+        /// </summary>
+        /// <param name="input">User input</param>
+        /// <returns>The same value converted to double</returns>
         public static double ValidMGLTInput(string input)
         {
             double MGLT;
@@ -39,6 +44,11 @@ namespace Kneat.Business
             return MGLT;
         }
 
+        /// <summary>
+        /// Method to convert starship consumables to hours
+        /// </summary>
+        /// <param name="consumables">Starship consumables</param>
+        /// <returns>INT containing the amount of hours</returns>
         public static int ConsumablesToHours(string consumables)
         {
             int numberOfHours = 0;
@@ -68,6 +78,11 @@ namespace Kneat.Business
             return numberOfHours;
         }
 
+        /// <summary>
+        /// Method to validate if the consumables are correct before convert them to hours
+        /// </summary>
+        /// <param name="consumables">Starship consumables</param>
+        /// <returns>Return true or a exception</returns>
         public static bool ValidateConsumable(string consumables)
         {
             string validValues = "days|day|weeks|week|months|month|years|year";
