@@ -90,7 +90,7 @@ I've made an extensive use of the powerful xUnit library, in order to get the mo
 -------------
 
 [input]: <resources/input.JPG>
-[webservice]: <resources/webservice.jpg>
-[output]: <resources/output.jpg>
-[tests]: <resources/tests.jpg>
-[tests2]: <resources/tests2.jpg>
+[webservice]: <resources/webservice.JPG>
+[output]: <resources/output.JPG>
+[tests]: <resources/tests.JPG>
+[tests2]: <resources/tests2.JPG>
